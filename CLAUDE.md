@@ -264,7 +264,7 @@ Key configuration sections:
 # Application basics
 spring:
   application:
-    name: yudao-server
+    name: lawsaas-server
   profiles:
     active: local
     

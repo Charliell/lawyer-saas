@@ -4,28 +4,28 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.iocoder.boot</groupId>
-    <artifactId>yudao</artifactId>
+    <artifactId>lawsaas</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>yudao-dependencies</module>
-        <module>yudao-framework</module>
+        <module>lawsaas-dependencies</module>
+        <module>lawsaas-framework</module>
         <!-- Server 主项目 -->
-        <module>yudao-server</module>
+        <module>lawsaas-server</module>
         <!-- 各种 module 拓展 -->
-        <module>yudao-module-system</module>
-        <module>yudao-module-infra</module>
-        <module>yudao-module-member</module>
-<!--        <module>yudao-module-bpm</module>-->
-<!--        <module>yudao-module-report</module>-->
-<!--        <module>yudao-module-mp</module>-->
-<!--        <module>yudao-module-pay</module>-->
-<!--        <module>yudao-module-mall</module>-->
-<!--        <module>yudao-module-crm</module>-->
-<!--        <module>yudao-module-erp</module>-->
-<!--        <module>yudao-module-iot</module>-->
+        <module>lawsaas-module-system</module>
+        <module>lawsaas-module-infra</module>
+        <module>lawsaas-module-member</module>
+<!--        <module>lawsaas-module-bpm</module>-->
+<!--        <module>lawsaas-module-report</module>-->
+<!--        <module>lawsaas-module-mp</module>-->
+<!--        <module>lawsaas-module-pay</module>-->
+<!--        <module>lawsaas-module-mall</module>-->
+<!--        <module>lawsaas-module-crm</module>-->
+<!--        <module>lawsaas-module-erp</module>-->
+<!--        <module>lawsaas-module-iot</module>-->
         <!-- AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
-<!--        <module>yudao-module-ai</module>-->
+<!--        <module>lawsaas-module-ai</module>-->
     </modules>
 
     <name>${project.artifactId}</name>
@@ -52,7 +52,7 @@
         <dependencies>
             <dependency>
                 <groupId>cn.iocoder.boot</groupId>
-                <artifactId>yudao-dependencies</artifactId>
+                <artifactId>lawsaas-dependencies</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>

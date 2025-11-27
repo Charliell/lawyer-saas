@@ -27,9 +27,9 @@ services:
       - redis:/data
 
   server:
-    container_name: yudao-server
+    container_name: lawsaas-server
     build:
-      context: ./yudao-server/
+      context: ./lawsaas-server/
     image: yudao-server
     restart: unless-stopped
     ports:
@@ -58,7 +58,7 @@ services:
   admin:
     container_name: yudao-admin
     build:
-      context: ./yudao-ui-admin
+      context: ./lawsaas-ui-admin
       args:
         NODE_ENV:
           ENV=${NODE_ENV:-production}
