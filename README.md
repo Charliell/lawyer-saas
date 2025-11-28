@@ -15,11 +15,11 @@
 
 ```
 lawyer-saas/
-├── yudao-dependencies/     # Maven BOM - Central dependency management
-├── yudao-framework/       # Core framework extensions and starters
-├── yudao-server/          # Main application entry point
-├── yudao-module-system/    # System management (users, roles, permissions)
-├── yudao-module-infra/     # Infrastructure (files, config, jobs)
+├── lawsaas-dependencies/     # Maven BOM - Central dependency management
+├── lawsaas-framework/       # Core framework extensions and starters
+├── lawsaas-server/          # Main application entry point
+├── lawsaas-module-system/    # System management (users, roles, permissions)
+├── lawsaas-module-infra/     # Infrastructure (files, config, jobs)
 └── sql/                    # Database initialization scripts
 ```
 
