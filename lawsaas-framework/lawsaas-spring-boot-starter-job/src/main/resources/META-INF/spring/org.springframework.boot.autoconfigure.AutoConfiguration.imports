@@ -1,2 +1,2 @@
-cn.iocoder.yudao.framework.quartz.config.YudaoQuartzAutoConfiguration
-cn.iocoder.yudao.framework.quartz.config.YudaoAsyncAutoConfiguration
+cn.iocoder.lawsaas.framework.quartz.config.YudaoQuartzAutoConfiguration
+cn.iocoder.lawsaas.framework.quartz.config.YudaoAsyncAutoConfiguration

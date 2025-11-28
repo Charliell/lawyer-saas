@@ -1,2 +1,2 @@
-cn.iocoder.yudao.framework.tracer.config.YudaoTracerAutoConfiguration
-cn.iocoder.yudao.framework.tracer.config.YudaoMetricsAutoConfiguration
+cn.iocoder.lawsaas.framework.tracer.config.YudaoTracerAutoConfiguration
+cn.iocoder.lawsaas.framework.tracer.config.YudaoMetricsAutoConfiguration
